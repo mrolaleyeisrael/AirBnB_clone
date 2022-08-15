@@ -1,5 +1,5 @@
 .places {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
@@ -48,7 +48,9 @@
     justify-content: center;
 }
 
-.max_guest, .number_rooms, .number_bathrooms {
+.max_guest,
+.number_rooms,
+.number_bathrooms {
     width: 100px;
     background-repeat: no-repeat;
     background-position: top center;
@@ -63,4 +65,9 @@
 
 .number_rooms {
     background-image: url('../images/icon_bed.png');
+}
+
+.number_bathrooms {
+    background-image: url('../images/icon_bath.png');
+
 }
